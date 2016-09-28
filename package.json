@@ -1,6 +1,6 @@
 {
   "name": "electron-pages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Manage pages in Electron like a pro.",
   "license": "MIT",
   "repository": "egoist/electron-pages",
