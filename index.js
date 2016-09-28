@@ -1,6 +1,7 @@
 'use strict'
 
-module.exports = function (route, fn) {
-  const matched = new RegExp(`${route}.html$`)
+module.exports = function foo(route, fn) {
+  const RE = new RegExp(`${route}.html$`)
+  const matched = RE.test(location.pathname)
   if (matched && typeof fn === 'function') fn()
 }
