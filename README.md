@@ -11,6 +11,7 @@ $ npm install --save electron-pages
 ## Usage
 
 ```js
+// usually userd in renderer process
 const when = require('electron-pages')
 
 // when you load index.html in electron
